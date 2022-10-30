@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.41" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="411dp"
+        android:layout_height="300dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline19"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/tshirt" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.81" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="47dp"
+        android:layout_height="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline21"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline20"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/heart" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.09" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.52" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="In Store"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline19" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Color:Black"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/guideline22"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView11" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="104dp"
+        android:layout_height="27dp"
+        android:gravity="center"
+        android:text="17.75 $"
+        app:layout_constraintBottom_toTopOf="@+id/guideline22"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline25"
+        app:layout_constraintTop_toTopOf="@+id/guideline19" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.66" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="114dp"
+        android:layout_height="26dp"
+        android:text="Item: Black T-shirt"
+        app:layout_constraintBottom_toTopOf="@+id/guideline24"
+        app:layout_constraintEnd_toStartOf="@+id/guideline26"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline22" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.6" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Quantity : 1"
+        app:layout_constraintBottom_toTopOf="@+id/guideline24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/guideline25"
+        app:layout_constraintTop_toTopOf="@+id/guideline22"
+        app:layout_constraintVertical_bias="0.64" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.67" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Price : 17.75 $"
+        app:layout_constraintBottom_toTopOf="@+id/guideline23"
+        app:layout_constraintEnd_toStartOf="@+id/guideline26"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline24" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.3" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="371dp"
+        android:layout_height="55dp"
+        android:text="ADD TO CART"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline27" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.89" />
+</androidx.constraintlayout.widget.ConstraintLayout>
